@@ -7,7 +7,7 @@ import (
 
 func handler(w http.ResponseWriter, r *http.Request){
 	fmt.Fprint(w,`
-	<meta name="go-import" content="bolen.com/test git https://github.com/bolenzhang/test">
+	<meta name="go-import" content="bolen.com/test git https://github.com/bolenzhang/golangnodes">
 `)
 }
 
